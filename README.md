@@ -1,2 +1,3 @@
-# kubica
+# Kubiča
+
 Learn common english words
