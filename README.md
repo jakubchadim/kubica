@@ -1,6 +1,24 @@
 # Kubiča #
 
-Learn common english words.
+This project was created to help people learn most frequently
+used English words for free. On this project you can learn how
+to work in web development. We will use React and TypeScript.
+Help us improve app so PR are welcome.
+
+### First steps
+
+1. Install [node.js](https://nodejs.org/en/) on your PC. We are using version 10. To check
+ your node version use `node -v` in your command line.
+2. Create account on [GitHub](https://github.com/join).
+3. [Clone](https://github.com/jakubchadim/kubica.git) project to your PC via
+ some tool. (Eg. [SourceTree](https://www.sourcetreeapp.com)) or just [download
+ zip](https://github.com/jakubchadim/kubica/archive/master.zip) (first option is better).
+4. In project folder use `npm install` command to install all required
+ dependencies.
+5. Use `npm start` to run project. Open [http://localhost:3000](http://localhost:3000)
+ to view it in the browser.
+6. Learn more about [project structure](docs/Structure.md).
+
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
