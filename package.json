@@ -16,7 +16,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "build:scripts": "tsc -p tsconfig.scripts.json",
+    "generate-dictionary": "npm run build:scripts && node dist/dictionary"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -32,5 +34,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "lodash": "^4.17.11",
+    "english-words": "https://github.com/first20hours/google-10000-english.git"
   }
 }
