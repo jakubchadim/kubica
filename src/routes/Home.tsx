@@ -1,8 +1,13 @@
 import React from 'react'
+import Title from '../components/title/Title'
 
 const RouteHome: React.FC = () => (
   <div>
-    <h1>Kubiča</h1>
+    <Title>Kubiča</Title>
+
+    <p>
+      List of words...
+    </p>
   </div>
 )
 
