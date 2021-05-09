@@ -36,7 +36,7 @@
     ]
   },
   "devDependencies": {
-    "lodash": "^4.17.11",
+    "lodash": "^4.17.21",
     "english-words": "https://github.com/first20hours/google-10000-english.git"
   }
 }
